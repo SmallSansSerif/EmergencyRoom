@@ -1,24 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using System.IO;
 using System.Data;
-using System.ComponentModel;
 using System.Reflection;
-
+using Microsoft.Xna.Framework;
 using Terraria;
 using TShockAPI;
-using Newtonsoft.Json;
 using TerrariaApi.Server;
-using Newtonsoft.Json.Linq;
 using TShockAPI.DB;
-using TShockAPI.Net;
 
 namespace EmergencyRoom
 {
-    [ApiVersion(1, 22)]
+    [ApiVersion(2, 1)]
     public class EmergencyRoom : TerrariaPlugin
     {
         public static IDbConnection DB;
